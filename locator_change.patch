@@ -1,0 +1,32 @@
+Index: css/style.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- css/style.css	(revision de85cde2413c5123046c8b20cd16bff64b6a24a0)
++++ css/style.css	(date 1571298858505)
+@@ -487,7 +487,7 @@
+     top: -1%;
+     right: 10%;
+ }
+-.top-brands h3,.fresh-vegetables h3,.mail h3,.testimonials h3,.w3_login h3,.w3ls_w3l_banner_nav_right_grid h3,h3.title,.faq h3,.services h3,.about h3,.team h3,.events h3{
++.top-brands h3,.top-brands h2,.fresh-vegetables h3,.fresh-vegetables h2,.mail h3,.testimonials h3,.w3_login h3,.w3ls_w3l_banner_nav_right_grid h3,h3.title,.faq h3,.services h3,.about h3,.team h3,.events h3{
+ 	text-align:center;
+ 	color:#212121;
+ 	padding-bottom:.5em;
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- index.html	(revision de85cde2413c5123046c8b20cd16bff64b6a24a0)
++++ index.html	(date 1571298921305)
+@@ -263,7 +263,7 @@
+ <!-- top-brands -->
+ 	<div class="top-brands">
+ 		<div class="container">
+-			<h3>Hot Offers</h3>
++			<h2>Hot Offers</h2>
+ 			<div class="agile_top_brands_grids">
+ 				<div class="col-md-3 top_brand_left">
+ 					<div class="hover14 column">
